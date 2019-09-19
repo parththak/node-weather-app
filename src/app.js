@@ -4,7 +4,7 @@ const geo = require('./utils/geocode')
 const weather = require('./utils/darksky')
 
 
-const express = require ('express')
+const express = require('express')
 const app = express()
 const directPath = path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname,'../templates/views')
@@ -70,12 +70,7 @@ app.get('/weather', (req,res) => {
 
 
     } )
-    
-    
-    
-
-
-    
+  
 })
 
 app.get('/products',(req,res) => {
